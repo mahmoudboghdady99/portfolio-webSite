@@ -80,10 +80,11 @@
 @media (max-width: 720px) {
   .home {
     width: 100%;
+    text-align: center;
   }
   .home-content {
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
   }
   .home-image {
     background-color: var(--body-color);

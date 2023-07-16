@@ -4,6 +4,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import homeImage from '../../images/home-image2.png';
 import { Zoom } from 'react-awesome-reveal';
 import IconGroup from '../IconGroup';
+import { Link } from 'react-router-dom';
 
 const titles = [
   'Front-End Developer',
@@ -70,7 +71,7 @@ function Home() {
                With knowledge in web development and Design, I offer<br />
                the best projects resulting in quality work
              </p>
-             <Button href='contact' variant='success' className='mb-3 mt-3'>Let's Talk</Button>
+             <Link to='/contact' className=' btn btn-success mb-3 mt-3' >Let's Talk</Link>
     <IconGroup />
                </Zoom>
            </div>
