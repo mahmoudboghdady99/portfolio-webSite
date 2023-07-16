@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d454a84.css",
+    "main.js": "/static/js/main.90c8bc97.js",
+    "static/media/home-image2.png": "/static/media/home-image2.fe04d9a6a790a6a6d281.png",
+    "static/media/restaurant.jpg": "/static/media/restaurant.df9cfa926c3efbf8cd82.jpg",
+    "static/media/movie.png": "/static/media/movie.506eca94b9278dc5d3f3.png",
+    "static/media/image-logo.jpg": "/static/media/image-logo.e36946990da9e902b99f.jpg",
+    "static/media/companyImg.jpg": "/static/media/companyImg.085f7273519de592cc65.jpg",
+    "static/media/EcommerceImg.jpg": "/static/media/EcommerceImg.17dd73a6b47ab44c0794.jpg",
+    "static/media/persImg.jpg": "/static/media/persImg.ef4d1daad3218e14f0e5.jpg",
+    "static/media/proj-2.jpeg": "/static/media/proj-2.50746d036d0f5b4d2bba.jpeg",
+    "static/media/coffe.jpg": "/static/media/coffe.2ce418573e8b64d9215f.jpg",
+    "static/media/proj-4.jpg": "/static/media/proj-4.728cef31c5984f50cd89.jpg",
+    "static/media/ecommerce.jpg": "/static/media/ecommerce.e7e3b37fc849207e74a6.jpg",
+    "static/media/html.png": "/static/media/html.7aa9a441950283a96c63.png",
+    "static/media/compImg.jpg": "/static/media/compImg.44af81c547fac67d794d.jpg",
+    "index.html": "/index.html",
+    "main.7d454a84.css.map": "/static/css/main.7d454a84.css.map",
+    "main.90c8bc97.js.map": "/static/js/main.90c8bc97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d454a84.css",
+    "static/js/main.90c8bc97.js"
+  ]
+}
