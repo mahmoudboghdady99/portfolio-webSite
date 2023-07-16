@@ -1,0 +1,104 @@
+.projects {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: var(--container-color);
+  padding: 30px 0;
+}
+
+.projects-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap; /* Wrap the items to new lines if necessary */
+}
+
+
+.projects-card-image {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.projects__model {
+  position: absolute;
+  right: 0;
+  bottom: -100%;
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(var(--hue), 70%, 40%, 0.8) 120%
+  );
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: bottom 0.4s;
+}
+
+.projects__subtitle,
+.projects__button {
+  color: var(--title-color);
+  /* font-size: var(--small-font-size); */
+}
+.projects__title {
+  color: greenyellow;
+  margin-bottom: 0.75rem;
+}
+.projects__subtitle {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+
+
+.projects__button {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  text-decoration: none;
+  font-weight: var(--font-medium);
+}
+
+.projects__button i {
+  font-size: 1.25rem;
+}
+
+.projects-card-image:hover .projects__model {
+  bottom: 0;
+}
+
+/* Media Query */
+@media (max-width: 720px) {
+  .projects-card {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 10px 20px;
+  }
+}
+/* project- Details */
+.project_details{
+  width: 100%;
+  height: 100%;
+  /* font-family: "Poppins", sans-serif; */
+}
+.group-buttons{
+  text-align: center;
+}
+.grop-buttons Button{
+  margin: 0 10px;
+  padding: 10px;
+}
+#main-item {
+background: linear-gradient(45deg, #E4E5E6,#00416A);
+}
+#main-item2{
+  background: linear-gradient(45deg, #799F0C,#ACBB78 );
+
+}

@@ -1,0 +1,36 @@
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    background-color: var(--container-color);
+}
+.title{
+    color: var(--title-color);
+}
+.title span{
+    color: var(--first-color);
+}
+.footer_content p{
+    color: #ddd;
+  }
+@media (max-width: 720px){
+    .footer_content{
+        display: block;
+        text-align: center;
+    }
+    .text-center {
+        padding: 3px;
+        display: inline-block;
+        margin: auto;
+      }
+      .title h4,
+      .title h5{
+        font-size: 18px;
+      }
+      .footer_content p{
+        font-size: 14px;
+        color: #ddd;
+      }
+}

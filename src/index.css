@@ -1,13 +1,114 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+code {
+  font-family: "Poppins", sans-serif;
+}
+/* CSS variables */
+:root {
+  --hue: 162;
+
+  --first-color: hsl(var(--hue), 100%, 40%);
+  --first-color-alt: hsl(var(--hue), 56%, 35%);
+  --title-color: hsl(228, 8%, 95%);
+  --text-color: hsl(228, 8%, 65%);
+  --body-color: hsl(228, 15%, 20%);
+  --container-color: hsl(228, 15%, 15%);
+
+  /* ===================================
+      fonts
+======================================*/
+  --body-fonts: "Poppins", sans-serif;
+  --biggest-font-size: 2rem;
+  --bigger-font-size: 1.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  /* ===================================
+    font wight
+    ================================== */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /* ================================
+        z-index
+ ====================================*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ======================
+    Responsive
+========================*/
+@media screen and (min-width: 1152px){
+  :root{
+    --biggest-font-size: 4rem;
+    --bigger-font-size: 2rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+    background-color: var(--body-color);
+      }
 }
+
+
+
+
+
+/* ==============  Base  ================== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+input,
+textarea,
+button,
+#body {
+  font-family: var(--body-fonts);
+  font-size: var(--normal-font-size);
+}
+#body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+input,
+textarea,
+button {
+  outline: none;
+  border: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.mb{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+

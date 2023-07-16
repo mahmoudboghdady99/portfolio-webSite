@@ -1,0 +1,23 @@
+.home-about {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    padding: 80px 8% 0px;
+    height: 100vh;
+    width: 100%;
+  }
+.home-content-page-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  @media (max-width: 920px){
+    .home-content-page-about{
+        display: block;
+        margin-top: 20px;
+
+    }
+    .home-content-page-about {
+      }
+  }
+ 
