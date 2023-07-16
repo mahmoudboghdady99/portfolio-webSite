@@ -8,6 +8,9 @@ function UiuxPage() {
   return (
     <Slide direction="left" delay={1000}>
       <Container>
+      <Link className="btn btn-success mt-3 mb-3" to="/services">
+           Go Back
+    </Link>
         <div className="home-page ">
           <h1 className="home-page-title mb">UI/UX Design Services</h1>
           <p style={{ marginBottom: "30px" }}>

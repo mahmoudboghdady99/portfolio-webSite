@@ -8,6 +8,9 @@ const HomePage = () => {
   return (
     <Slide direction='left' delay={1000}>
     <Container>
+    <Link className="btn btn-success mt-3 mb-3" to="/services">
+           Go Back
+    </Link>
       <div className="home-page">
         <h1 className='home-page-title mb'>Welcome to My Web Development Services</h1>
         <p className='mb'>
