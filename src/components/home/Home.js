@@ -99,7 +99,6 @@ function Home() {
            </div>
          </div>
        </div>
-       <div className='margin'></div>
   </Col>
      </Container>
    </Row>

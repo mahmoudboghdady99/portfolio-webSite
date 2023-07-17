@@ -1,8 +1,7 @@
 .home {
   background-color: var(--body-color);
   color: var(--text-color);
-  padding: 80px 8% 0px;
-  height: 100vh;
+  padding: 30px 8% 0px;
   width: auto;
 }
 .home-content {
@@ -75,23 +74,30 @@
 }
 /* ============== Media Query=============== */
 @media (max-width: 520px) {
-  .home-content-page-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  .home {
+
+    padding: 20px;
+   margin-bottom: 130px ;
+  }
+  .home-content {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+ 
+
   }
   .home-info {
-    flex: 1;
-    max-height: 350px;
-    margin-top: 20px;
-    padding-left: 10px;
+  
+    max-height: 200px;
+ 
+  
   }
   .home-image {
-    margin-bottom: 100px;
-    flex: 1;
-    max-height: 350px;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
   }
+ 
 }
 
 /* =================key frams===================== */
