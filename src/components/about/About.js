@@ -53,9 +53,14 @@ function About() {
        integral parts of my professional journey.
     
        </p>
-          <a href='/assets/New%20folder/Resume.pdf' download='my-cv.pdf'>
-            <Button variant='success' className=' mt-1 '>Download My CV</Button>
-          </a>
+       
+       <Button variant='success' className=' mt-1 '
+        onclick="window.location.href='/assets/New%20folder/Resume.pdf'" 
+        download="my-cv.pdf">
+          Download My CV
+        </Button>
+
+      
 
        
 

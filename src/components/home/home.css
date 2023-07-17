@@ -75,28 +75,25 @@
 }
 /* ============== Media Query=============== */
 @media (max-width: 520px) {
-  .home {
-    width: 100%;
-    text-align: center;
-  }
-  .home-content {
+  .home-content-page-about {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .home-info {
-    background-color: var(--body-color);
     flex: 1;
-    max-height: 300px; 
+    max-height: 350px;
+    margin-top: 20px;
+    padding-left: 10px;
   }
   .home-image {
-    background-color: var(--body-color);
+    margin-bottom: 100px;
     flex: 1;
-    max-height: 250px; 
-  }
-  .margin{
-    margin: 300px 0;
+    max-height: 350px;
   }
 }
+
 /* =================key frams===================== */
 
   

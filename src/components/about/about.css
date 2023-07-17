@@ -28,21 +28,23 @@
     max-height: 250px;
   }
 }
-@media (max-width: 520px){
+@media (max-width: 520px) {
   .home-content-page-about {
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     align-items: center;
   }
-  .home-info{
+  .home-info {
     flex: 1;
-    max-height: 250px;
+    max-height: 350px;
+    margin-top: 20px; /* يمكن تعديل هذا الرقم حسب المسافة المطلوبة */
   }
-  .home image{
+  .home-image {
+    margin-bottom: 100px;
     flex: 1;
     max-height: 250px;
   }
 }
+
 
