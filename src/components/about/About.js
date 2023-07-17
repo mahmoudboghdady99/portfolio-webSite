@@ -1,9 +1,12 @@
 import React from 'react'
 import './about.css'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+
 import homeImage from '../../images/home-image2.png'
 import {Slide} from "react-awesome-reveal";
+
 function About() {
+
   return (
     <Slide direction='left' delay={1000}>
     <Row className='marginTop'>
@@ -53,12 +56,18 @@ function About() {
        integral parts of my professional journey.
     
        </p>
-       
-       <Button variant='success' className=' mt-1 '
-        onclick="window.location.href='/assets/New%20folder/Resume.pdf'" 
-        download="my-cv.pdf">
-          Download My CV
-        </Button>
+ 
+
+       <Button
+        variant="success"
+        className="mt-1"
+     
+        href='/assets/New%20folder/mahmoud-front-End Enginner.pdf'
+        download="my-cv.pdf"
+      >
+        Download My CV
+      </Button>
+
 
       
 
