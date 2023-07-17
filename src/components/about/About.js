@@ -62,7 +62,7 @@ function About() {
         variant="success"
         className="mt-1"
      
-        href='/assets/New%20folder/mahmoudBoghdady-Front-End.pdf'
+        href='/assets/New%20folder/mahmoudBoghdady-Front-End.pdf`'
         download="my-cv.pdf"
       >
         Download My CV
