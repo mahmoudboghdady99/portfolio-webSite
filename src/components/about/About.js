@@ -52,21 +52,23 @@ function About() {
        Continuous learning and staying up-to-date with the latest web technologies are <br /> 
        integral parts of my professional journey.
     
-          </p>
+       </p>
           <a href='/assets/New%20folder/Resume.pdf' download='my-cv.pdf'>
-            <Button variant='success' className='mb-3 mt-3'>Download My CV</Button>
+            <Button variant='success' className=' mt-1 '>Download My CV</Button>
           </a>
 
-     
+       
+
         </div>
     
          </div>
        </div>
-       <div className='margin'></div>
+      
   </Col>
 
       </Container>
     </Row>
+    {/* <div className='margin'></div> */}
     </Slide>
   )
 }
