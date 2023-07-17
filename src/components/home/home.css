@@ -83,14 +83,18 @@
     display: flex;
     flex-direction: column;
   }
+  .home-info {
+    background-color: var(--body-color);
+    flex: 1;
+    max-height: 300px; 
+  }
   .home-image {
     background-color: var(--body-color);
-
-    height: 100vh;
-    
+    flex: 1;
+    max-height: 250px; 
   }
   .margin{
-    margin: 600px 0;
+    margin: 300px 0;
   }
 }
 /* =================key frams===================== */
