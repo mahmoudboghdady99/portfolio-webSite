@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './home.css';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import {  Col, Container, Row } from 'react-bootstrap';
 import homeImage from '../../images/home-image2.png';
 import { Zoom } from 'react-awesome-reveal';
 import IconGroup from '../IconGroup';
@@ -33,10 +33,10 @@ function Home() {
             <span 
             style={{
               color: 'gold',
-              fontSize: '40px',
+              fontSize: '30px',
               textShadow: '2px 2px 5px rgba(0, 0, 0, 0.3)',
               fontWeight: 'bold',
-              fontStyle: '',
+         
             }}
             
             >{prevTitle}</span>
